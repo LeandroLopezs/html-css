@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+
+
+body {
+    background-color: #EBE5C5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+
+    background-image: linear-gradient(to top, #063A1C, #2EA564);
+    padding: 60px;
+    box-shadow: 5px 5px 15px rgba(138, 111, 95, 0.616);
+
+
+
+}
+
+header p {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+}
+
+header h1 {
+    font-size: 300%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+
+}
+
+header a {
+
+    text-decoration: none;
+    color: #2FA866;
+    padding: 10px;
+
+}
+
+header a:hover {
+
+    text-decoration: none;
+    color: white;
+    background-color: #2FA866;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+
+
+}
+
+article {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(138, 111, 95, 0.616);
+}
+
+article h1 {
+    font-family: 'idroid';
+    padding: 5px;
+    color: #063D1E;
+    background-image: linear-gradient(to right, #83E1AD, transparent);
+    font-weight: normal;
+}
+
+article p {
+    padding: 10px;
+    line-height: 2em;
+    text-indent: 30px;
+}
+
+
+div.video {
+    background-color: #063A1C;
+    margin-bottom: 30px;
+    margin: 0px -15px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+#mais {
+    background-color: #83E1AD;
+    margin: 2%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.225);
+}
+
+#mais h1 {
+    background-color: #1A5C37;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: none;
+
+}
+
+#mais ul {
+    columns: 2;
+    list-style-position: inside;
+}
+
+#mais ul li {
+    list-style-type: '\2714';
+}
+
+
+
+article img {
+    width: 100%;
+
+}
+
+article img.pequena {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+p {
+    text-align: justify;
+}
+
+article a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #063A1C;
+    background-color: #83E1AD;
+    padding: 2px 6px;
+}
+
+article a::after {
+    content: '\1F517';
+}
+
+article a:hover {
+    text-decoration: underline;
+    color: #1A5C37;
+}
